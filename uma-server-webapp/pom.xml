@@ -28,6 +28,7 @@
 	 <name>UMA Server Webapp</name>
 	 <description>Deployable package of the User Managed Access (UMA) server extension to MITREid Connect</description>
 	<build>
+		<finalName>uma-server-webapp</finalName><!-- make relative reference like $artifactId-->
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
